@@ -3,8 +3,10 @@
   "name": "skroller",
   "description": "Skroll to a position or element",
   "version": "0.1.0",
+  "homepage": "https://github.com/smrtl/skroller",
   "repository": {
-    "url": ""
+    "type": "git",
+    "url": "https://github.com/smrtl/skroller"
   },
   "main": "./skroller.js",
   "ender": "./ender.js",
