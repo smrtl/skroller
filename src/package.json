@@ -1,0 +1,21 @@
+{
+  "author": "Samuel Suter",
+  "name": "skroller",
+  "description": "Skroll to a position or element",
+  "version": "0.1.0",
+  "repository": {
+    "url": ""
+  },
+  "main": "./skroller.js",
+  "ender": "./ender.js",
+  "engines": {
+    "node": "~0.5.11 || 0.5.11-pre"
+  },
+  "dependencies": {
+    "qwery": "*",
+    "bonzo": "*",
+    "morpheus": "*"
+  },
+  "devDependencies": {},
+  "keywords": ["ender", "kui", "scroll"]
+}

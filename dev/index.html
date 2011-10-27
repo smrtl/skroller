@@ -1,0 +1,135 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+    <title>Ender text</title>
+    
+    <style type="text/css" media="screen">
+        html, body {margin:0;padding:0;height:100%;}
+        body {font:12px Helvetica;}
+        .head, .wrap {width:900px;margin:auto;clear:both;}
+        .fixed {position:absolute;top:40px;bottom:0;left:0;right:0;overflow:auto;}
+        ul {list-style:none;border:1px solid black;height:24px;padding:0;background:#07f;margin:0;}
+        li {float:left;}
+        li a {display:block;padding:5px 10px;color:white;text-decoration:none;}
+        li a:hover {background:#0cf;}
+        h2 {clear:both;}
+    </style>
+    
+    <script type="text/javascript" charset="utf-8" src="ender.min.js"></script>
+    <script type="text/javascript" charset="utf-8" src="../src/skroller.js"></script>
+    <script type="text/javascript" charset="utf-8" src="../src/ender.js"></script>
+    <script type="text/javascript" charset="utf-8">
+    $.domReady(function() {
+        $('.scroll').click(function(e) {
+            var name = $(e.target).attr('href').replace('#', '');
+            e.preventDefault();
+            $('#content').skrollTo($('a[name='+name+']'));
+        });
+    });
+    </script>
+</head>
+<body>
+
+<div class="wrap">
+    
+    <ul class="menu">
+        <li><a href="#menu1" class="scroll">Menu 1</a></li>
+        <li><a href="#menu2" class="scroll">Menu 2</a></li>
+        <li><a href="#menu3" class="scroll">Menu 3</a></li>
+        <li><a href="#menu4" class="scroll">Menu 4</a></li>
+        <li><a href="#menu5" class="scroll">Menu 5</a></li>
+    </ul>
+</div>
+
+<div class="fixed" id="content">
+    <div class="wrap">
+        <a name="top" style="display:none">&nbsp;</a>
+        <h2><a name="menu1">MENU 1</a></h2>
+        <p>
+            <a href="#top" class="scroll">top</a><br/>
+            Maecenas aliquam pulvinar ante id consectetur. Suspendisse gravida elit ipsum. Donec quis porttitor leo.
+            Donec vitae urna diam, ut venenatis lacus. Integer a augue arcu. Nam metus felis, blandit id egestas a, fringilla in metus.
+            Integer orci augue, consequat nec bibendum id, elementum id mauris. Vestibulum ut purus sed metus malesuada sagittis.
+            Vivamus placerat iaculis vestibulum. Cras dignissim, velit ac egestas rhoncus, diam arcu vestibulum mauris,
+            sit amet tincidunt nisl est ut purus. Curabitur aliquam mollis urna, eget varius metus mattis id.
+            Nam mattis, dui et semper rhoncus, nulla nibh placerat tortor, nec porta mi mi porttitor justo.
+            Maecenas aliquam pulvinar ante id consectetur. Suspendisse gravida elit ipsum. Donec quis porttitor leo.
+            Donec vitae urna diam, ut venenatis lacus. Integer a augue arcu. Nam metus felis, blandit id egestas a, fringilla in metus.
+            Integer orci augue, consequat nec bibendum id, elementum id mauris. Vestibulum ut purus sed metus malesuada sagittis.
+            Vivamus placerat iaculis vestibulum. Cras dignissim, velit ac egestas rhoncus, diam arcu vestibulum mauris,
+            sit amet tincidunt nisl est ut purus. Curabitur aliquam mollis urna, eget varius metus mattis id.
+            Nam mattis, dui et semper rhoncus, nulla nibh placerat tortor, nec porta mi mi porttitor justo.
+        </p>
+
+        <h2><a name="menu2">MENU 2</a></h2>
+        <p>
+            <a href="#top" class="scroll">top</a><br/>
+            Maecenas aliquam pulvinar ante id consectetur. Suspendisse gravida elit ipsum. Donec quis porttitor leo.
+            Donec vitae urna diam, ut venenatis lacus. Integer a augue arcu. Nam metus felis, blandit id egestas a, fringilla in metus.
+            Integer orci augue, consequat nec bibendum id, elementum id mauris. Vestibulum ut purus sed metus malesuada sagittis.
+            Vivamus placerat iaculis vestibulum. Cras dignissim, velit ac egestas rhoncus, diam arcu vestibulum mauris,
+            sit amet tincidunt nisl est ut purus. Curabitur aliquam mollis urna, eget varius metus mattis id.
+            Nam mattis, dui et semper rhoncus, nulla nibh placerat tortor, nec porta mi mi porttitor justo.
+            Maecenas aliquam pulvinar ante id consectetur. Suspendisse gravida elit ipsum. Donec quis porttitor leo.
+            Donec vitae urna diam, ut venenatis lacus. Integer a augue arcu. Nam metus felis, blandit id egestas a, fringilla in metus.
+            Integer orci augue, consequat nec bibendum id, elementum id mauris. Vestibulum ut purus sed metus malesuada sagittis.
+            Vivamus placerat iaculis vestibulum. Cras dignissim, velit ac egestas rhoncus, diam arcu vestibulum mauris,
+            sit amet tincidunt nisl est ut purus. Curabitur aliquam mollis urna, eget varius metus mattis id.
+            Nam mattis, dui et semper rhoncus, nulla nibh placerat tortor, nec porta mi mi porttitor justo.
+        </p>
+
+        <h2><a name="menu3">MENU 3</a></h2>
+        <p>
+            <a href="#top" class="scroll">top</a><br/>
+            Maecenas aliquam pulvinar ante id consectetur. Suspendisse gravida elit ipsum. Donec quis porttitor leo.
+            Donec vitae urna diam, ut venenatis lacus. Integer a augue arcu. Nam metus felis, blandit id egestas a, fringilla in metus.
+            Integer orci augue, consequat nec bibendum id, elementum id mauris. Vestibulum ut purus sed metus malesuada sagittis.
+            Vivamus placerat iaculis vestibulum. Cras dignissim, velit ac egestas rhoncus, diam arcu vestibulum mauris,
+            sit amet tincidunt nisl est ut purus. Curabitur aliquam mollis urna, eget varius metus mattis id.
+            Nam mattis, dui et semper rhoncus, nulla nibh placerat tortor, nec porta mi mi porttitor justo.
+            Maecenas aliquam pulvinar ante id consectetur. Suspendisse gravida elit ipsum. Donec quis porttitor leo.
+            Donec vitae urna diam, ut venenatis lacus. Integer a augue arcu. Nam metus felis, blandit id egestas a, fringilla in metus.
+            Integer orci augue, consequat nec bibendum id, elementum id mauris. Vestibulum ut purus sed metus malesuada sagittis.
+            Vivamus placerat iaculis vestibulum. Cras dignissim, velit ac egestas rhoncus, diam arcu vestibulum mauris,
+            sit amet tincidunt nisl est ut purus. Curabitur aliquam mollis urna, eget varius metus mattis id.
+            Nam mattis, dui et semper rhoncus, nulla nibh placerat tortor, nec porta mi mi porttitor justo.
+        </p>
+        <h2><a name="menu4">MENU 4</a></h2>
+        <p>
+            <a href="#top" class="scroll">top</a><br/>
+            Maecenas aliquam pulvinar ante id consectetur. Suspendisse gravida elit ipsum. Donec quis porttitor leo.
+            Donec vitae urna diam, ut venenatis lacus. Integer a augue arcu. Nam metus felis, blandit id egestas a, fringilla in metus.
+            Integer orci augue, consequat nec bibendum id, elementum id mauris. Vestibulum ut purus sed metus malesuada sagittis.
+            Vivamus placerat iaculis vestibulum. Cras dignissim, velit ac egestas rhoncus, diam arcu vestibulum mauris,
+            sit amet tincidunt nisl est ut purus. Curabitur aliquam mollis urna, eget varius metus mattis id.
+            Nam mattis, dui et semper rhoncus, nulla nibh placerat tortor, nec porta mi mi porttitor justo.
+            Maecenas aliquam pulvinar ante id consectetur. Suspendisse gravida elit ipsum. Donec quis porttitor leo.
+            Donec vitae urna diam, ut venenatis lacus. Integer a augue arcu. Nam metus felis, blandit id egestas a, fringilla in metus.
+            Integer orci augue, consequat nec bibendum id, elementum id mauris. Vestibulum ut purus sed metus malesuada sagittis.
+            Vivamus placerat iaculis vestibulum. Cras dignissim, velit ac egestas rhoncus, diam arcu vestibulum mauris,
+            sit amet tincidunt nisl est ut purus. Curabitur aliquam mollis urna, eget varius metus mattis id.
+            Nam mattis, dui et semper rhoncus, nulla nibh placerat tortor, nec porta mi mi porttitor justo.
+        </p>
+        <h2><a name="menu5">MENU 5</a></h2>
+        <p>
+            <a href="#top" class="scroll">top</a><br/>
+            Maecenas aliquam pulvinar ante id consectetur. Suspendisse gravida elit ipsum. Donec quis porttitor leo.
+            Donec vitae urna diam, ut venenatis lacus. Integer a augue arcu. Nam metus felis, blandit id egestas a, fringilla in metus.
+            Integer orci augue, consequat nec bibendum id, elementum id mauris. Vestibulum ut purus sed metus malesuada sagittis.
+            Vivamus placerat iaculis vestibulum. Cras dignissim, velit ac egestas rhoncus, diam arcu vestibulum mauris,
+            sit amet tincidunt nisl est ut purus. Curabitur aliquam mollis urna, eget varius metus mattis id.
+            Nam mattis, dui et semper rhoncus, nulla nibh placerat tortor, nec porta mi mi porttitor justo.
+            Maecenas aliquam pulvinar ante id consectetur. Suspendisse gravida elit ipsum. Donec quis porttitor leo.
+            Donec vitae urna diam, ut venenatis lacus. Integer a augue arcu. Nam metus felis, blandit id egestas a, fringilla in metus.
+            Integer orci augue, consequat nec bibendum id, elementum id mauris. Vestibulum ut purus sed metus malesuada sagittis.
+            Vivamus placerat iaculis vestibulum. Cras dignissim, velit ac egestas rhoncus, diam arcu vestibulum mauris,
+            sit amet tincidunt nisl est ut purus. Curabitur aliquam mollis urna, eget varius metus mattis id.
+            Nam mattis, dui et semper rhoncus, nulla nibh placerat tortor, nec porta mi mi porttitor justo.
+        </p>
+    </div>
+</div>
+
+</body>
+</html>
