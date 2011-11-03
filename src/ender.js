@@ -1,5 +1,4 @@
 !function ($) {
-<<<<<<< HEAD
     var skroller = require('skroller');
     
     $.ender({
@@ -17,11 +16,3 @@
         
     }, true);
 }(ender)
-=======
-    
-    var skroller = require('skroller');
-    
-    $.ender(skroller, true);
-    
-}(ender)
->>>>>>> 4a26830c561249d0a78abb3003499edb98e54801

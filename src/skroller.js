@@ -1,17 +1,13 @@
-<<<<<<< HEAD
 /*!
  * Skroller - Skroll around
  * https://github.com/smrtl/skroller - (c) Samuel Suter 2011
  * License MIT
  */
-=======
->>>>>>> 4a26830c561249d0a78abb3003499edb98e54801
 !function (name, definition) {
     if (typeof define == 'function') define(definition)
     else if (typeof module != 'undefined') module.exports = definition()
     else this[name] = definition()
 }('skroller', function () {
-<<<<<<< HEAD
     /**
      * Skroller.
      *
@@ -106,26 +102,4 @@
     }
     
     return skroller;
-=======
-    
-    function skrollTo(el, to, duration, fn)
-    {
-        el = $(el);
-        to = typeof to == 'number' ? to : $(to).first().offset().top - el.first().offset().top;
-        
-        var from = el.scrollTop();
-        if (from == to) {
-            if (typeof fn == 'function') fn();
-            return;
-        }
-        $.tween(duration || 800,function(p) { el.scrollTop(p); },fn,false,from,to);
-    }
-    
-    // Expose
-    return {
-        skrollTo: function(to, duration, fn) {
-            skrollTo(this, to, duration, fn);
-        }
-    };
->>>>>>> 4a26830c561249d0a78abb3003499edb98e54801
 })
