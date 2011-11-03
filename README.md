@@ -1,6 +1,7 @@
 Skroller
 ===
 
+<<<<<<< HEAD
 A tiny library to skroll around. It looks like this :
 
     skroller($('body'), $('#somewhere'), {
@@ -58,3 +59,21 @@ Got ender ?
         duration: 800,
         axis: 'xy',
     });
+=======
+Scrolling utility for Ender.
+
+Example
+---
+
+``` js
+
+$('#container').skrollTo('#element', 500, function() {
+    alert('scrolled to #element');
+})
+
+$('#container').skrollTo(800, 500, function() {
+    alert('scrolled to 800');
+})
+
+```
+>>>>>>> 4a26830c561249d0a78abb3003499edb98e54801

@@ -1,19 +1,20 @@
 {
   "author": "Samuel Suter",
   "name": "skroller",
-  "description": "Skroll around",
+  "description": "Skroll to a position or element",
   "version": "0.1.0",
   "homepage": "https://github.com/smrtl/skroller",
   "repository": {
     "type": "git",
     "url": "https://github.com/smrtl/skroller"
   },
-  "main": "./src/skroller.js",
-  "ender": "./src/ender.js",
+  "main": "./skroller.js",
+  "ender": "./ender.js",
   "engines": {
     "node": "~0.5.11 || 0.5.11-pre"
   },
   "dependencies": {
+    "qwery": "*",
     "bonzo": "*",
     "morpheus": "*"
   },
